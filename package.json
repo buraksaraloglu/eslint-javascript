@@ -1,20 +1,18 @@
 {
   "name": "@buraksaraloglu/eslint-javascript",
-  "description": "Base JavaScript ESLint config, following our styleguide",
+  "description": "Base JavaScript ESLint config, following a styleguide",
   "version": "0.1.0",
   "main": "index.js",
+  "author": "Burak Saraloglu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/buraksaraloglu/eslint-javascript"
+    "url": "git+https://github.com/buraksaraloglu/eslint-javascript.git"
   },
   "bugs": {
     "url": "https://github.com/buraksaraloglu/eslint-javascript/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/buraksaraloglu/eslint-javascript",
+  "homepage": "https://github.com/buraksaraloglu/eslint-javascript#readme",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -27,6 +25,9 @@
     "es2017",
     "es2018"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
     "prettier": "^2.0.5"
